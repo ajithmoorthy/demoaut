@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-29T14:59:56Z" name="Default suite" finished-at="2019-08-29T15:01:12Z" duration-ms="76175">
+    <groups>
+    </groups>
+    <test started-at="2019-08-29T14:59:56Z" name="Default test" finished-at="2019-08-29T15:01:12Z" duration-ms="76175">
+      <class name="com.demoaut.com.demoaut.AppTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demoaut.com.demoaut.AppTest@2c34f934]" started-at="2019-08-29T20:29:56Z" name="setup" finished-at="2019-08-29T20:30:03Z" duration-ms="6615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AppTest1(java.lang.String, java.lang.String)[pri:0, instance:com.demoaut.com.demoaut.AppTest@2c34f934]" started-at="2019-08-29T20:30:04Z" name="AppTest1" data-provider="login" finished-at="2019-08-29T20:31:12Z" duration-ms="68384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppTest1 -->
+        <test-method signature="testApp()[pri:0, instance:com.demoaut.com.demoaut.AppTest@2c34f934]" started-at="2019-08-29T20:31:12Z" name="testApp" finished-at="2019-08-29T20:31:12Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.demoaut.com.demoaut.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
